@@ -24,6 +24,7 @@ int main() {
     printf("Sorted sentence with qsort:\n%s\n",cpystr);
 
     free(str);
+    free(cpystr);
     
 }
 
